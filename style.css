@@ -21,6 +21,10 @@ body {
 
 .para {
     font-family: 'Montserrat', sans-serif;
+
+}
+
+#para1 {
     color: white;
 }
 
@@ -47,4 +51,64 @@ body {
     background-size: cover;
     /* took help of google here on how to darken the background */
     background-blend-mode: darken;
+}
+
+#head2 {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 45px;
+}
+
+.font {
+    font-family: 'Poppins', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.box1 {
+    background-color: rgb(221, 228, 228);
+    padding: 15px;
+    border-radius: 2px;
+    margin-left: 100px;
+    margin-right: -75px;
+}
+
+#boxes {
+    margin-left: 19%;
+    margin-bottom: 55px;
+}
+
+.select {
+    background-color: rgba(255, 38, 0, 0.219);
+    padding: 15px;
+    border-radius: 2px;
+    margin-left: 100px;
+    margin-right: -75px;
+    border: 2px solid tomato;
+}
+
+#input {
+    display: block;
+    width: 275px;
+    margin: 20px auto;
+    border: none;
+}
+
+/* googled this  */
+input[type="text"]::placeholder {
+    text-align: center;
+}
+
+hr {
+    width: 700px;
+}
+
+#btn2 {
+    width: 90px;
+    margin: 20px auto;
+    display: block;
+    position: center;
+    margin-top: 40px;
 }
