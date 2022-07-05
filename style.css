@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+}
+
+.center {
+    text-align: center;
+}
+
+.head {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#head1 {
+    font-size: 40px;
+    display: block;
+    position: center;
+    padding-top: 80px;
+    color: white;
+}
+
+.para {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+#btn1 {
+    width: 90px;
+    margin: 20px auto;
+    display: block;
+    position: center;
+    margin-top: 40px;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(255, 111, 86);
+    padding: 13px 20px;
+    border-radius: 4px;
+    font-family: 'Gantari', sans-serif;
+}
+
+#sec1 {
+    background: rgba(0, 0, 0, 0.5) url(images/donation7.jpg);
+    height: 470px;
+    background-size: cover;
+    /* took help of google here on how to darken the background */
+    background-blend-mode: darken;
+}
