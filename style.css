@@ -64,30 +64,30 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+#don {
+    margin-bottom: 40px;
+}
+
 .flex {
     display: flex;
 }
 
-.box1 {
-    background-color: rgb(221, 228, 228);
+.boxes {
+    background-color: rgba(195, 195, 196);
+    font-family: 'Poppins', sans-serif;
     padding: 15px;
-    border-radius: 2px;
-    margin-left: 100px;
-    margin-right: -75px;
+    margin: auto;
 }
 
-#boxes {
-    margin-left: 20%;
-    margin-bottom: 55px;
-}
-
-.select {
+#select {
     background-color: rgba(255, 38, 0, 0.219);
-    padding: 15px;
-    border-radius: 2px;
-    margin-left: 100px;
-    margin-right: -75px;
+    ;
     border: 2px solid tomato;
+}
+
+#donation {
+    width: 50%;
+    margin: 20px auto;
 }
 
 #input {
@@ -95,6 +95,10 @@ body {
     width: 275px;
     margin: 20px auto;
     border: none;
+}
+
+#form1 {
+    margin-top: 80px;
 }
 
 /* googled this  */
@@ -181,7 +185,7 @@ hr {
     margin-top: 60px;
 }
 
-form {
+#form2 {
     background-color: rgb(250, 234, 129);
     height: 150px;
     width: 600px;
