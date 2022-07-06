@@ -8,6 +8,7 @@ body {
 
 .head {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 
 }
 
@@ -53,7 +54,7 @@ body {
     background-blend-mode: darken;
 }
 
-#head2 {
+.head2 {
     color: black;
     font-family: 'Poppins', sans-serif;
     padding-top: 45px;
@@ -111,4 +112,67 @@ hr {
     display: block;
     position: center;
     margin-top: 40px;
+}
+
+.boxx {
+    /* background-color: aqua; */
+    margin-left: 20px;
+    padding: 25px;
+}
+
+.boxx img {
+    width: 40px;
+}
+
+.boxx1 {
+    margin-left: 190px;
+    margin-top: 50px;
+}
+
+.h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.para3 {
+    font-family: 'Lato', sans-serif;
+}
+
+#mint {
+    background-color: rgb(137, 214, 189);
+}
+
+#peach {
+    background-color: rgb(255, 225, 235);
+}
+
+#cream {
+    background-color: antiquewhite;
+}
+
+#sec4 {
+    background: rgba(0, 0, 0, 0.7) url(images/donation5.jpg);
+    height: 720px;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: white;
+}
+
+.numbr {
+    font-family: 'Bitter', serif;
+    font-size: 40px;
+}
+
+.survey {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+#survey1 {
+    margin-top: 65px;
+}
+
+#counter {
+    margin-top: 90px;
+    padding-top: 70px;
+    font-size: 40px;
 }
